@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+background-image: linear-gradient(gray black white);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background-image: -webkit-repeating-radial-gradient(blue red black);
+
+}
+.nav-p {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.nav-p p {
+  /* transition: 0.5s ; */
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.nav-p p:hover {
+  border-bottom: 3px solid blue;
+  color: blue;
+}
+.nav-button {
+  background-color: #ff7143;
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+.nav-nutton:hover {
+  background: orangered;
+  color: white;
+}
+.nav-button:active:active {
+  transform: scale(0.9);
+}
+.main {
+  display: flex;
+  gap: 220px;
+  padding-left: 160px;
+  align-items: center;
+ 
+  padding-bottom: 50px;
+}
+.main-title p {
+  width: 400px;
+}
+.main-btn {
+  width: 100px;
+  height: 40px;
+  background-color: lawngreen;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.main-btn:hover {
+  background-color: red;
+  color: white;
+}
+.main-btn:active {
+  transform: scale(0.9);
+}
+.main-b {
+  display: flex;
+  gap: 30px;
+}
+.main-b img {
+  width: 40px;
+  height: 40px;
+}
+.main-title h1 {
+  width: 400px;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.main-title p {
+  margin-bottom: 50px;
+}
+.main-logo {
+  display: flex;
+  justify-content: space-around;
+ 
+  padding-left: 50px;
+}
+.secctionn-title p {
+  width: 250px;
+  font-size: 16px;
+}
+.secctionnn {
+  display: flex;
+  gap: 350px;
+  align-items: center;
+  padding-left: 200px;
+  padding-top: 70px;
+ 
+}
+.childimg{
+    margin-left: 120px;
+    display: flex;
+    position: relative;
+}
+.childd{
+    position: absolute;
+    left: -180px;
+    top: 130px;
+
+}
+.secctionnn h1 {
+  font-size: 40px;
+}
+.secctionn {
+  display: flex;
+  gap: 350px;
+  align-items: center;
+  padding-left: 200px;
+  padding-top: 70px;
+
+}
+.sections {
+  display: flex;
+  gap: 100px;
+  padding-left: 180px;
+  
+  padding-top: 80px;
+  align-items: center;
+}
+.sectionone p {
+  width: 300px;
+}
+.sectionone {
+  text-align: center;
+}
+.sectionns {
+  display: flex;
+  gap: 100px;
+  padding-top: 40px;
+  align-items: center;
+  padding-left: 180px;
+  
+}
+.sectionns h1 {
+  font-size: 50px;
+  width: 450px;
+}
+.buttontwo {
+  width: 200px;
+  height: 60px;
+  background-color: lightgrey;
+  color: blue;
+  border: none;
+}
+
+.buttonone {
+  width: 200px;
+  height: 60px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.secttionn3 {
+  display: flex;
+
+  padding-top: 60px;
+  padding-left: 300px;
+  
+}
+span {
+  font-size: 20px;
+}
+.secttionn5 h1 {
+  font-size: 60px;
+}
+.secttionn5 {
+  margin-top: 40px;
+  font-size: 30px;
+  background-color: lightgrey;
+  padding: 70px;
+  border-radius: 10px;
+  text-align: center;
+}
+.secttionn6 {
+  margin-top: 40px;
+  font-size: 30px;
+  background-color: orangered;
+  padding: 70px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding-top: 70px;
+  text-align: center;
+}
+.secttionn7 {
+  margin-top: 40px;
+  font-size: 30px;
+  background-color: lightgrey;
+  padding: 70px;
+  border-radius: 10px;
+  text-align: center;
+}
+.secttionn5 button {
+  width: 120px;
+  height: 40px;
+  margin-top: 40px;
+  color: blue;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.secttionn5 button:hover {
+  background-color: blue;
+  color: white;
+}
+.secttionn5 button:active {
+  transform: scale(0.9);
+}
+.secttionn6 button {
+  width: 120px;
+  height: 40px;
+  margin-top: 40px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.secttionn6 button:hover {
+  background-color: orange;
+  color: white;
+}
+.secttionn6 button:active {
+  transform: scale(0.9);
+}
+
+.secttionn7 button {
+  width: 120px;
+  height: 40px;
+  margin-top: 40px;
+  color: blue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.secttionn7 button:hover {
+  background-color: blue;
+  color: white;
+}
+.secttionn7 button:active {
+  transform: scale(0.9);
+}
